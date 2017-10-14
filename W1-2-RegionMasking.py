@@ -3,7 +3,7 @@ import matplotlib.image as mpimg
 import numpy as np
 
 # Read in the image and print some stats
-image = mpimg.imread('../Term1/Finding Lane Line/test.jpg')
+image = mpimg.imread('test_images/test.jpg')
 print('This image is: ', type(image),
       'with dimensions:', image.shape)
 

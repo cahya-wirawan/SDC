@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 
 # Read in the image and convert to grayscale
-image = mpimg.imread('../Term1/Finding Lane Line/exit-ramp.jpg')
+image = mpimg.imread('test_images/exit-ramp.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
 # Define a kernel size for Gaussian smoothing / blurring

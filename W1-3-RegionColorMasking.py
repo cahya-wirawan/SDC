@@ -3,7 +3,7 @@ import matplotlib.image as mpimg
 import numpy as np
 
 # Read in the image
-image = mpimg.imread('../Term1/Finding Lane Line/test.jpg')
+image = mpimg.imread('test_images/test.jpg')
 
 # Grab the x and y sizes and make two copies of the image
 # With one copy we'll extract only the pixels that meet our selection,
